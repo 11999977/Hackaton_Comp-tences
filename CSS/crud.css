@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Oxygen;
+}
+
+/* En-tête */
+
+header{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap:86px ;
+  padding: 20px;
+
+}
+
+/* bare optionnelle */
+
+.state{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 49px;
+}
+
+/* Cdre photo avec logo de l'appareil photo */
+.options{
+  position: relative;
+}
+.options .img1{
+  border-radius: 80px;
+  border: 1px solid #160032;
+  object-fit: cover;
+}
+
+.options .img2{
+  border-radius: 80px;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* boutons optionnels */
+
+.all-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.all_btn .violet{
+  background: #AB1EEA;
+  color: #FFF;
+  width: 104px;
+  height: 42px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.all_btn .vide{
+  background: #fff;
+  color: #1d1d1d;
+  width: 104px;
+  height: 42px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #424242;
+  
+}
+
+/* Formulaire de modification */
+
+.modifs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* div contenant les premiers input */
+form .container_input{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* passage des input en bloc et definition de leur style */
+form input{
+  display: block;
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  background-color: #fff;
+  outline: none;
+}
+
+
+/* container des deux section d'input du bas */
+
+.sections{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+form .form_section{
+  display: flex;
+  gap: 46px;
+  justify-content: space-around;
+  
+}
+
+/* bloc aside de coté */
+
+.form_section aside{
+  display: flex;
+  flex-direction: column;
+}
+
+select{
+  border-radius: 8px;
+  border: 1px solid #808080;
+  background-color: #fff;
+  outline: none;
+}
+
+
+
+form .form_section input{
+  width: 91px;
+  height: 50px;
+  
+}
+
+/* Dsipostion des elements select */
+
+form .form_section .sect2{
+  width: 163px;
+  height: 50px;
+}
+
+form .form_section .sect1{
+  width: 91px;
+  height: 50px;
+}
+
+/* Bouton du formulaire */
+
+.modifs input[type="submit"]{
+  width: 265px;
+  height: 35px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  background: #AB1EEA;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  margin-top: 56px;
+  margin-bottom: 56px;
+}
