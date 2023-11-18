@@ -1,0 +1,84 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background: #160032;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: Oxygen;
+}
+
+/* logo */
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 124px;
+}
+
+/* input */
+
+
+.enreg{
+  display: flex ;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  display: block;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: inherit;
+  border-bottom: 1px solid white ;
+  width: 300px;
+  height: 55px;
+}
+
+/* Autres icones */
+.icone img{
+  position: absolute;
+  bottom: 0;
+}
+
+/* icone oeil */
+.icone .oeil{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/* conteneur des icones */
+.icone{
+  position: relative;
+
+}
+
+
+/* boutons */
+.bouton{
+  width: 200px;
+  height: 50px;
+  background-color: #AB1EEA;
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+  border: none;
+}
+
+
